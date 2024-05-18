@@ -1,0 +1,12 @@
+[
+  {
+    "call_id": "1",
+    "employee_id": "emp_001",
+    "employee_text": "transcript of the employee's dialogue for call 1"
+  },
+  {
+    "call_id": "2",
+    "employee_id": "emp_002",
+    "employee_text": "transcript of the employee's dialogue for call 2"
+  }
+]

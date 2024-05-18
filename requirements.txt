@@ -1,0 +1,32 @@
+# Core Libraries
+pandas==1.2.4
+numpy==1.20.3
+
+
+# Natural Language Processing Libraries
+nltk==3.6.2
+spacy==3.0.5
+textblob==0.15.3
+
+# Data Visualization Libraries
+matplotlib==3.4.2
+seaborn==0.11.1
+
+# Excel and JSON Libraries
+openpyxl==3.0.7
+jsonschema==3.2.0
+
+# Testing Library
+unittest2==1.1.0
+
+# Cython for compiling extensions
+Cython==0.29.21
+
+# Machine Learning Libraries
+scikit-learn==0.24.2
+
+
+# Compatibility for Python versions >= 3.7
+python_version >= "3.7"
+ 
+
