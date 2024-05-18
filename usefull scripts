@@ -1,0 +1,26 @@
+merge python script
+
+#!/bin/bash
+
+# Define the output file
+OUTPUT_FILE="merged_project.py"
+
+# Find all Python files in the project
+PY_FILES=$(find . -type f -name "*.py" ! -name "$OUTPUT_FILE" | sort)
+
+# Create or clear the output file
+> $OUTPUT_FILE
+
+# Function to add file content to the output file
+add_file_content() {
+    local file=$1
+    echo -e "\n# File: $file\n" >> $OUTPUT_FILE
+    cat "$file" >> $OUTPUT_FILE
+}
+
+# Loop through each Python file and add its content to the output file
+for file in $PY_FILES; do
+    add_file_content "$file"
+done
+
+echo "All Python files have been merged into $OUTPUT_FILE."
