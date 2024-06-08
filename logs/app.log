@@ -1,0 +1,23 @@
+2024-05-20 18:55:36,309 - INFO - Starting spelling correction on dialogues
+2024-05-20 18:56:38,165 - INFO - Completed spelling correction on dialogues
+2024-05-20 18:56:38,165 - INFO - Correcting spelling in employee dialogues
+2024-05-20 18:56:38,165 - INFO - Starting spelling correction on dialogues
+2024-05-20 18:57:10,736 - INFO - Starting dialogue processing
+2024-05-20 18:57:10,736 - INFO - Reading customer dialogues
+2024-05-20 18:57:10,737 - INFO - Success: Loaded data from /workspaces/Compiladores/data/customer_dialogues.json
+2024-05-20 18:57:10,737 - INFO - Reading employee dialogues
+2024-05-20 18:57:10,737 - INFO - Success: Loaded data from /workspaces/Compiladores/data/employee_dialogues.json
+2024-05-20 18:57:10,737 - INFO - Correcting spelling in customer dialogues
+2024-05-20 18:57:10,737 - INFO - Starting spelling correction on dialogues
+2024-05-20 18:58:10,904 - INFO - Completed spelling correction on dialogues
+2024-05-20 18:58:10,904 - INFO - Correcting spelling in employee dialogues
+2024-05-20 18:58:10,904 - INFO - Starting spelling correction on dialogues
+2024-05-20 18:59:25,299 - INFO - Completed spelling correction on dialogues
+2024-05-20 18:59:25,299 - INFO - Removing stop words from customer dialogues
+2024-05-20 18:59:25,299 - INFO - Starting stop words removal on dialogues
+2024-05-20 18:59:25,341 - INFO - Completed stop words removal on dialogues
+2024-05-20 18:59:25,341 - INFO - Removing stop words from employee dialogues
+2024-05-20 18:59:25,341 - INFO - Starting stop words removal on dialogues
+2024-05-20 18:59:25,379 - INFO - Completed stop words removal on dialogues
+2024-05-20 18:59:25,379 - INFO - Tokenizing customer dialogues
+2024-05-20 18:59:25,380 - ERROR - An unexpected error occurred: expected string or bytes-like object

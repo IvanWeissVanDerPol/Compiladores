@@ -1,0 +1,115 @@
+[
+    {
+        "call_id": "1",
+        "customer_id": "cust_001",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Tengo una pregunta sobre mi factura. No entiendo algunos de los cargos.",
+            "Sí, hay un cargo de 50 dólares que no esperaba ver.",
+            "Sí, por favor. ¿Por qué se aplicó esta tarifa?",
+            "Oh, sí, ahora lo recuerdo. Gracias por la aclaración.",
+            "No, eso es todo. Gracias por tu ayuda.",
+            "Gracias, igualmente. Hasta luego."
+        ],
+        "employee_id": "emp_001",
+        "employee_text": [
+            "Buenos días, ¿en qué puedo ayudarte hoy?",
+            "Claro, estaré encantado de ayudarte con eso. ¿Puedes especificar qué cargos no entiendes?",
+            "Entiendo. Déjame revisar eso rápidamente... Parece que ese cargo es por una tarifa de servicio adicional que se aplicó el mes pasado. ¿Te gustaría más detalles sobre esta tarifa?",
+            "La tarifa se aplicó debido a un ajuste en tu plan de servicio que solicitaste en tu llamada anterior. ¿Recuerdas haber hecho ese cambio?",
+            "De nada, ¿hay algo más en lo que pueda ayudarte?",
+            "Ha sido un placer ayudarte. Que tengas un buen día."
+        ]
+    },
+    {
+        "call_id": "2",
+        "customer_id": "cust_002",
+        "customer_text": [
+            "Hola, buenas tardes.",
+            "Quiero actualizar mi plan de servicio.",
+            "Estoy interesado en un plan con más datos móviles.",
+            "¿Puedes ayudarme con eso?",
+            "Gracias por la información.",
+            "Sí, eso suena perfecto.",
+            "Gracias por tu ayuda. Hasta luego."
+        ],
+        "employee_id": "emp_002",
+        "employee_text": [
+            "Buenas tardes, ¿en qué puedo ayudarte?",
+            "Claro, puedo ayudarte a actualizar tu plan de servicio.",
+            "Tenemos un plan con más datos móviles. ¿Te gustaría que te explique los detalles?",
+            "Perfecto, procederé a actualizar tu plan. ¿Hay algo más en lo que pueda ayudarte?",
+            "De nada, hasta luego."
+        ]
+    },
+    {
+        "call_id": "3",
+        "customer_id": "cust_003",
+        "customer_text": [
+            "Buenas noches.",
+            "Tengo problemas con mi conexión a internet.",
+            "La señal es muy inestable.",
+            "¿Pueden enviar a alguien para revisarlo?",
+            "Gracias."
+        ],
+        "employee_id": "emp_003",
+        "employee_text": [
+            "Buenas noches, ¿cómo puedo ayudarte?",
+            "Lamento escuchar que estás teniendo problemas con la conexión.",
+            "Voy a programar una visita técnica para revisar tu conexión.",
+            "Gracias por tu paciencia."
+        ]
+    },
+    {
+        "call_id": "4",
+        "customer_id": "cust_004",
+        "customer_text": [
+            "Hola.",
+            "Quiero devolver un producto que compré recientemente.",
+            "No estoy satisfecho con la calidad.",
+            "¿Cómo puedo hacer la devolución?",
+            "Gracias por tu ayuda."
+        ],
+        "employee_id": "emp_004",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Entiendo, ¿puedes proporcionarme más detalles sobre el producto?",
+            "Voy a procesar la devolución de inmediato.",
+            "Gracias por informarnos."
+        ]
+    },
+    {
+        "call_id": "5",
+        "customer_id": "cust_005",
+        "customer_text": [
+            "Buenas tardes.",
+            "Quiero cancelar mi suscripción.",
+            "Sí, estoy seguro.",
+            "Gracias."
+        ],
+        "employee_id": "emp_005",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "¿Estás seguro de que quieres cancelar la suscripción?",
+            "Voy a proceder con la cancelación. ¿Hay algo más en lo que pueda ayudarte?",
+            "Gracias por tu tiempo."
+        ]
+    },
+    {
+        "call_id": "6",
+        "customer_id": "cust_006",
+        "customer_text": [
+            "Hola, ¿puedo saber el estado de mi pedido?",
+            "Hice el pedido hace una semana.",
+            "Gracias por la actualización.",
+            "Hasta luego."
+        ],
+        "employee_id": "emp_006",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a verificar el estado de tu pedido.",
+            "Tu pedido está en camino y debería llegar pronto.",
+            "Gracias por tu paciencia. Hasta luego."
+        ]
+    }
+]

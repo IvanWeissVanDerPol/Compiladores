@@ -1,0 +1,418 @@
+[
+    {
+        "call_id": "1",
+        "employee_id": "emp_001",
+        "employee_text": [
+            "Buenos días, ¿en qué puedo ayudarte hoy?",
+            "Claro, estaré encantado de ayudarte con eso. ¿Puedes especificar qué cargos no entiendes?",
+            "Entiendo. Déjame revisar eso rápidamente... Parece que ese cargo es por una tarifa de servicio adicional que se aplicó el mes pasado. ¿Te gustaría más detalles sobre esta tarifa?",
+            "La tarifa se aplicó debido a un ajuste en tu plan de servicio que solicitaste en tu llamada anterior. ¿Recuerdas haber hecho ese cambio?",
+            "De nada, ¿hay algo más en lo que pueda ayudarte?",
+            "Ha sido un placer ayudarte. Que tengas un buen día."
+        ]
+    },
+    {
+        "call_id": "2",
+        "employee_id": "emp_002",
+        "employee_text": [
+            "Buenas tardes, ¿en qué puedo ayudarte?",
+            "Claro, puedo ayudarte a actualizar tu plan de servicio.",
+            "Tenemos un plan con más datos móviles. ¿Te gustaría que te explique los detalles?",
+            "Perfecto, procederé a actualizar tu plan. ¿Hay algo más en lo que pueda ayudarte?",
+            "De nada, hasta luego."
+        ]
+    },
+    {
+        "call_id": "3",
+        "employee_id": "emp_003",
+        "employee_text": [
+            "Buenas noches, ¿cómo puedo ayudarte?",
+            "Lamento escuchar que estás teniendo problemas con la conexión.",
+            "Voy a programar una visita técnica para revisar tu conexión.",
+            "Gracias por tu paciencia."
+        ]
+    },
+    {
+        "call_id": "4",
+        "employee_id": "emp_004",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Entiendo, ¿puedes proporcionarme más detalles sobre el producto?",
+            "Voy a procesar la devolución de inmediato.",
+            "Gracias por informarnos."
+        ]
+    },
+    {
+        "call_id": "5",
+        "employee_id": "emp_005",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "¿Estás seguro de que quieres cancelar la suscripción?",
+            "Voy a proceder con la cancelación. ¿Hay algo más en lo que pueda ayudarte?",
+            "Gracias por tu tiempo."
+        ]
+    },
+    {
+        "call_id": "6",
+        "employee_id": "emp_006",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a verificar el estado de tu pedido.",
+            "Tu pedido está en camino y debería llegar pronto.",
+            "Gracias por tu paciencia. Hasta luego."
+        ]
+    },
+    {
+        "call_id": "7",
+        "employee_id": "emp_007",
+        "employee_text": [
+            "Hola, ¿en qué puedo ayudarte?",
+            "Voy a actualizar la información de tu cuenta.",
+            "Tu dirección ha sido actualizada correctamente.",
+            "De nada, ¿hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "8",
+        "employee_id": "emp_008",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a revisar por qué tu pago no ha sido procesado.",
+            "He resuelto el problema y tu pago ha sido procesado.",
+            "De nada."
+        ]
+    },
+    {
+        "call_id": "9",
+        "employee_id": "emp_009",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a verificar el estado del servicio en tu área.",
+            "El servicio debería restablecerse en las próximas dos horas.",
+            "Gracias por tu paciencia."
+        ]
+    },
+    {
+        "call_id": "10",
+        "employee_id": "emp_010",
+        "employee_text": [
+            "Buenas tardes, ¿en qué puedo ayudarte?",
+            "Claro, te puedo dar más detalles sobre nuestros nuevos servicios.",
+            "Te enviaré un correo con toda la información.",
+            "Gracias por tu interés."
+        ]
+    },
+    {
+        "call_id": "11",
+        "employee_id": "emp_011",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Gracias por tu feedback positivo.",
+            "Estamos contentos de que estés satisfecho con nuestro servicio.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "12",
+        "employee_id": "emp_012",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a verificar la disponibilidad para el servicio técnico.",
+            "Tenemos una cita disponible mañana a las 10:00 AM. ¿Te sirve esa hora?",
+            "Perfecto, la cita ha sido programada.",
+            "De nada, hasta luego."
+        ]
+    },
+    {
+        "call_id": "13",
+        "employee_id": "emp_013",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "Voy a verificar la garantía de tu producto.",
+            "Tu producto está cubierto por la garantía durante un año desde la fecha de compra.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "14",
+        "employee_id": "emp_014",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Claro, puedo darte más detalles sobre nuestras promociones actuales.",
+            "Te enviaré un correo con las promociones disponibles.",
+            "Gracias por tu interés."
+        ]
+    },
+    {
+        "call_id": "15",
+        "employee_id": "emp_015",
+        "employee_text": [
+            "Buenas noches, ¿cómo puedo ayudarte?",
+            "Lamento escuchar que tu dispositivo no está funcionando correctamente.",
+            "Voy a guiarte a través de algunos pasos para solucionarlo.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "16",
+        "employee_id": "emp_016",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a explicarte los términos para renovar tu contrato.",
+            "Puedes renovar tu contrato por un año o dos años con diferentes beneficios.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "17",
+        "employee_id": "emp_017",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a procesar tu solicitud de reembolso.",
+            "El reembolso se realizará en un plazo de 5 a 7 días hábiles.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "18",
+        "employee_id": "emp_018",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "Voy a verificar la disponibilidad del servicio en tu área.",
+            "El servicio está disponible en tu área.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "19",
+        "employee_id": "emp_019",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a reportar la interrupción de tu servicio.",
+            "Nuestros técnicos están trabajando para resolverlo lo antes posible.",
+            "Gracias por tu paciencia."
+        ]
+    },
+    {
+        "call_id": "20",
+        "employee_id": "emp_020",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "Voy a darte más detalles sobre las características de nuestro producto.",
+            "Te enviaré un correo con toda la información.",
+            "Gracias por tu interés."
+        ]
+    },
+    {
+        "call_id": "21",
+        "employee_id": "emp_021",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a explicarte los límites de uso de tu plan.",
+            "Tu plan incluye 10 GB de datos al mes con una velocidad de 100 Mbps.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "22",
+        "employee_id": "emp_022",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a guiarte en el proceso de instalación de tu nuevo producto.",
+            "Por favor, sigue los siguientes pasos...",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "23",
+        "employee_id": "emp_023",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a verificar si eres elegible para una actualización de tu plan.",
+            "Sí, eres elegible para una actualización.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "24",
+        "employee_id": "emp_024",
+        "employee_text": [
+            "Buenas noches, ¿cómo puedo ayudarte?",
+            "Lamento escuchar que has tenido una mala experiencia.",
+            "Voy a procesar tu queja inmediatamente.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "25",
+        "employee_id": "emp_025",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a ayudarte a resolver el problema de seguridad en tu cuenta.",
+            "Por favor, sigue estos pasos para asegurar tu cuenta...",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "26",
+        "employee_id": "emp_026",
+        "employee_text": [
+            "Buenos días, ¿cómo puedo ayudarte?",
+            "Voy a revisar el cargo que estás disputando.",
+            "El cargo ha sido revisado y ajustado.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "27",
+        "employee_id": "emp_027",
+        "employee_text": [
+            "Buenas tardes, ¿cómo puedo ayudarte?",
+            "Voy a guiarte en el proceso para transferir tu servicio a una nueva dirección.",
+            "Por favor, proporciona la nueva dirección y fecha de mudanza.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "28",
+        "employee_id": "emp_028",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a darte más detalles sobre los beneficios del programa de lealtad.",
+            "Te enviaré un correo con toda la información.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "29",
+        "employee_id": "emp_029",
+        "employee_text": [
+            "Buenas noches, ¿cómo puedo ayudarte?",
+            "Voy a guiarte en el proceso para suspender tu servicio temporalmente.",
+            "La suspensión se realizará desde la fecha que indiques.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    {
+        "call_id": "30",
+        "employee_id": "emp_030",
+        "employee_text": [
+            "Hola, ¿cómo puedo ayudarte?",
+            "Voy a guiarte en el proceso para modificar tu pedido.",
+            "Por favor, proporciona los detalles de la modificación.",
+            "¿Hay algo más en lo que pueda ayudarte?"
+        ]
+    },
+    
+        {
+            "call_id": "31",
+            "employee_id": "emp_031",
+            "employee_text": [
+                "Sí, ¿qué quieres?",
+                "Eso no es mi problema.",
+                "No puedo ayudarte con eso.",
+                "Llama más tarde si quieres.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "32",
+            "employee_id": "emp_032",
+            "employee_text": [
+                "¿Qué necesitas?",
+                "No tengo tiempo para esto.",
+                "Tendrás que esperar.",
+                "Eso es todo lo que puedo hacer.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "33",
+            "employee_id": "emp_033",
+            "employee_text": [
+                "Sí, dime.",
+                "No puedo hacer nada al respecto.",
+                "Eso no es mi responsabilidad.",
+                "Llama a otro departamento.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "34",
+            "employee_id": "emp_034",
+            "employee_text": [
+                "¿Qué quieres?",
+                "Eso no es problema mío.",
+                "Ya te lo dije, no puedo ayudarte.",
+                "Llama mañana.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "35",
+            "employee_id": "emp_035",
+            "employee_text": [
+                "Sí, ¿qué pasa?",
+                "No tengo información sobre eso.",
+                "No puedo hacer nada para ayudarte.",
+                "Eso es todo.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "36",
+            "employee_id": "emp_036",
+            "employee_text": [
+                "¿Qué necesitas?",
+                "Estoy ocupado ahora.",
+                "No tengo tiempo para esto.",
+                "Llámame más tarde.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "37",
+            "employee_id": "emp_037",
+            "employee_text": [
+                "Sí, dime.",
+                "Eso no es mi responsabilidad.",
+                "No puedo ayudarte con eso.",
+                "Llama a otro departamento.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "38",
+            "employee_id": "emp_038",
+            "employee_text": [
+                "¿Qué pasa?",
+                "Eso no es problema mío.",
+                "No puedo hacer nada al respecto.",
+                "Llama mañana.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "39",
+            "employee_id": "emp_039",
+            "employee_text": [
+                "Sí, ¿qué quieres?",
+                "No puedo ayudarte.",
+                "Eso no es mi responsabilidad.",
+                "Eso es todo.",
+                "Adiós."
+            ]
+        },
+        {
+            "call_id": "40",
+            "employee_id": "emp_040",
+            "employee_text": [
+                "¿Qué necesitas?",
+                "No tengo tiempo para esto.",
+                "Llámame más tarde.",
+                "Eso es todo lo que puedo hacer.",
+                "Adiós."
+            ]
+        }
+    ]
+    
