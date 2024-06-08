@@ -1,26 +1,23 @@
-merge python script
+# Define the path to the folder containing the Python files
+$folderPath = "C:\Users\WEISSIVA\OneDrive\Documentos\Personal\porfolio website\Compiladores"
 
-#!/bin/bash
-
-# Define the output file
-OUTPUT_FILE="merged_project.py"
-
-# Find all Python files in the project
-PY_FILES=$(find . -type f -name "*.py" ! -name "$OUTPUT_FILE" | sort)
+# Define the output file path
+$outputFilePath = $folderPath +"\MergedPythonCode.py"
 
 # Create or clear the output file
-> $OUTPUT_FILE
+New-Item -Path $outputFilePath -ItemType File -Force
 
-# Function to add file content to the output file
-add_file_content() {
-    local file=$1
-    echo -e "\n# File: $file\n" >> $OUTPUT_FILE
-    cat "$file" >> $OUTPUT_FILE
+# Function to merge Python files
+function Merge-PythonFiles($folder) {
+    Get-ChildItem -Path $folder -Recurse -Filter *.py | ForEach-Object {
+        $content = Get-Content $_.FullName
+        Add-Content -Path $outputFilePath -Value "# File: $($_.FullName)"
+        Add-Content -Path $outputFilePath -Value $content
+        Add-Content -Path $outputFilePath -Value "`n" # Add a new line for separation
+    }
 }
 
-# Loop through each Python file and add its content to the output file
-for file in $PY_FILES; do
-    add_file_content "$file"
-done
+# Call the function
+Merge-PythonFiles -folder $folderPath
 
-echo "All Python files have been merged into $OUTPUT_FILE."
+Write-Host "Merging complete. The merged code is in $outputFilePath"
