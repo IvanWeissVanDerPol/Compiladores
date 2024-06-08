@@ -1,27 +1,44 @@
 import json
 import os
-import pprint
+import logging
+from typing import List, Dict
 
-def read_json_file(file_path):
+class FileReadError(Exception):
+    """Custom exception for errors during file reading."""
+    pass
+
+def read_json_file(file_path: str) -> List[Dict[str, List[str]]]:
     """
     Reads a JSON file and returns its contents.
 
     :param file_path: Path to the JSON file.
     :return: Parsed contents of the JSON file.
+    :raises FileNotFoundError: If the file does not exist.
+    :raises ValueError: If the file contains invalid JSON.
     """
     if not os.path.exists(file_path):
+        logging.error(f"File not found: {file_path}")
         raise FileNotFoundError(f"Error: The file {file_path} does not exist.")
     
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
-        print(f"Success: Loaded data from {file_path}")
+        logging.info(f"Success: Loaded data from {file_path}")
+        return data
     except json.JSONDecodeError as e:
+        logging.error(f"Error parsing JSON file {file_path}: {e}")
         raise ValueError(f"Error: Failed to parse JSON file {file_path}. Error: {e}")
-    
-    return data
 
-def read_dialogues(data_dir='data', file_name='customer_dialogues.json'):
+def read_dialogue_file(file_path: str) -> List[Dict[str, List[str]]]:
+    """
+    Reads a dialogue JSON file and returns its contents.
+
+    :param file_path: Path to the JSON file.
+    :return: Parsed contents of the JSON file.
+    """
+    return read_json_file(file_path)
+
+def read_dialogues(data_dir: str = 'data', file_name: str = 'customer_dialogues.json') -> List[Dict[str, List[str]]]:
     """
     Reads and parses a JSON file containing dialogues.
 
@@ -32,7 +49,7 @@ def read_dialogues(data_dir='data', file_name='customer_dialogues.json'):
     file_path = os.path.join(data_dir, file_name)
     return read_json_file(file_path)
 
-def display_data_nicely(data, title="Data"):
+def display_data_nicely(data: List[Dict[str, List[str]]], title: str = "Data") -> None:
     """
     Displays JSON data in a readable format.
 
@@ -40,15 +57,11 @@ def display_data_nicely(data, title="Data"):
     :param title: Title for the data being displayed.
     """
     print(f"\n{title}:\n{'=' * len(title)}")
-    if isinstance(data, list):
-        for index, item in enumerate(data, start=1):
-            print(f"\nEntry {index}:")
-            print(f"{'-' * 8}")
-            pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint(item)
-    else:
-        pp = pprint.PrettyPrinter(indent=4)
-        pp.pprint(data)
+    for index, item in enumerate(data, start=1):
+        print(f"\nEntry {index}:")
+        print(f"{'-' * 8}")
+        for key, value in item.items():
+            print(f"{key}: {value}")
 
 if __name__ == "__main__":
     files_to_read = [
@@ -61,4 +74,4 @@ if __name__ == "__main__":
             data = read_dialogues(file_name=file_name)
             display_data_nicely(data, title)
         except Exception as e:
-            print(f"Error reading {file_name}: {e}")
+            logging.error(f"Error reading {file_name}: {e}")

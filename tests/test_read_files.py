@@ -3,7 +3,7 @@ import json
 from io import StringIO
 from contextlib import redirect_stdout
 import pytest
-from src.preprocessing.read_files import read_json_file, read_dialogues, display_data_nicely
+from src.preprocessing.read_files import read_dialogue_file, read_dialogues, display_data_nicely
 
 @pytest.fixture(scope='module')
 def setup_files():
@@ -34,23 +34,23 @@ def setup_files():
     os.remove(customer_file_path)
     os.remove(employee_file_path)
 
-def test_read_json_file(setup_files):
+def test_read_dialogue_file(setup_files):
     customer_file_path, _, customer_data, _ = setup_files
-    data = read_json_file(customer_file_path)
+    data = read_dialogue_file(customer_file_path)
     assert isinstance(data, list)
     assert data == customer_data
 
-def test_read_json_file_nonexistent():
+def test_read_dialogue_file_nonexistent():
     with pytest.raises(FileNotFoundError):
-        read_json_file('data/nonexistent.json')
+        read_dialogue_file('data/nonexistent.json')
 
-def test_read_json_file_invalid():
+def test_read_dialogue_file_invalid():
     invalid_file_path = 'data/invalid.json'
     with open(invalid_file_path, 'w', encoding='utf-8') as f:
         f.write("Invalid JSON")
     try:
         with pytest.raises(ValueError):
-            read_json_file(invalid_file_path)
+            read_dialogue_file(invalid_file_path)
     finally:
         os.remove(invalid_file_path)
 

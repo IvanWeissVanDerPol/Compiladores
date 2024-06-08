@@ -3,10 +3,10 @@ merge python script
 #!/bin/bash
 
 # Define the output file
-OUTPUT_FILE="merged_project.py"
+OUTPUT_FILE="merged_src.py"
 
-# Find all Python files in the project
-PY_FILES=$(find . -type f -name "*.py" ! -name "$OUTPUT_FILE" | sort)
+# Find all Python files in the 'src/' directory excluding empty __init__.py
+PY_FILES=$(find src -type f -name "*.py" | grep -v "__init__.py" | sort)
 
 # Create or clear the output file
 > $OUTPUT_FILE
@@ -23,4 +23,13 @@ for file in $PY_FILES; do
     add_file_content "$file"
 done
 
-echo "All Python files have been merged into $OUTPUT_FILE."
+# Handle __init__.py files separately if they have significant content
+INIT_FILES=$(find src -type f -name "__init__.py" | sort)
+
+for init_file in $INIT_FILES; do
+    if [ -s "$init_file" ]; then
+        add_file_content "$init_file"
+    fi
+done
+
+echo "All Python files in the 'src/' directory have been merged into $OUTPUT_FILE."
