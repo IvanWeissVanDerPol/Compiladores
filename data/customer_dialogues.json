@@ -1,0 +1,429 @@
+[
+    {
+        "call_id": "0",
+        "customer_id": "cust_000",
+        "customer_text": [
+            "Buen dia. Desde ayer que no puedo consultar mi saldo.",
+            "Claro, tres millones doscientos sesenta mil cero sesenta y ocho.",
+            "En año de mi nacimiento es mil novecientos noventa y seis.",
+            "No, muchas gracias. Usted ha sido my amable.",
+            "Hasta luego."
+        ]
+    },
+    {
+        "call_id": "1",
+        "customer_id": "cust_001",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Tengo una pregunta sobre mi factura. No entiendo algunos de los cargos.",
+            "Sí, hay un cargo de 50 dólares que no esperaba ver.",
+            "Sí, por favor. ¿Por qué se aplicó esta tarifa?",
+            "Oh, sí, ahora lo recuerdo. Gracias por la aclaración.",
+            "No, eso es todo. Gracias por tu ayuda.",
+            "Gracias, igualmente. Hasta luego."
+        ]
+    },
+    {
+        "call_id": "2",
+        "customer_id": "cust_002",
+        "customer_text": [
+            "Hola, buenas tardes.",
+            "Quiero actualizar mi plan de servicio.",
+            "Estoy interesado en un plan con más datos móviles.",
+            "¿Puedes ayudarme con eso?",
+            "Gracias por la información.",
+            "Sí, eso suena perfecto.",
+            "Gracias por tu ayuda. Hasta luego."
+        ]
+    },
+    {
+        "call_id": "3",
+        "customer_id": "cust_003",
+        "customer_text": [
+            "Buenas noches.",
+            "Tengo problemas con mi conexión a internet.",
+            "La señal es muy inestable.",
+            "¿Pueden enviar a alguien para revisarlo?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "4",
+        "customer_id": "cust_004",
+        "customer_text": [
+            "Hola.",
+            "Quiero devolver un producto que compré recientemente.",
+            "No estoy satisfecho con la calidad.",
+            "¿Cómo puedo hacer la devolución?",
+            "Gracias por tu ayuda."
+        ]
+    },
+    {
+        "call_id": "5",
+        "customer_id": "cust_005",
+        "customer_text": [
+            "Buenas tardes.",
+            "Quiero cancelar mi suscripción.",
+            "Sí, estoy seguro.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "6",
+        "customer_id": "cust_006",
+        "customer_text": [
+            "Hola, ¿puedo saber el estado de mi pedido?",
+            "Hice el pedido hace una semana.",
+            "Gracias por la actualización.",
+            "Hasta luego."
+        ]
+    },
+    {
+        "call_id": "7",
+        "customer_id": "cust_007",
+        "customer_text": [
+            "Hola.",
+            "Necesito actualizar la información de mi cuenta.",
+            "Mi dirección ha cambiado.",
+            "Gracias por tu ayuda."
+        ]
+    },
+    {
+        "call_id": "8",
+        "customer_id": "cust_008",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Mi pago no ha sido procesado.",
+            "¿Podrías revisar por qué?",
+            "Gracias por resolverlo."
+        ]
+    },
+    {
+        "call_id": "9",
+        "customer_id": "cust_009",
+        "customer_text": [
+            "Buenos días.",
+            "Estoy llamando para reportar un corte de servicio en mi área.",
+            "¿Cuándo se espera que se restablezca el servicio?",
+            "Gracias por la información."
+        ]
+    },
+    {
+        "call_id": "10",
+        "customer_id": "cust_010",
+        "customer_text": [
+            "Buenas tardes.",
+            "Estoy interesado en saber más sobre los nuevos servicios disponibles.",
+            "¿Podrías darme más detalles?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "11",
+        "customer_id": "cust_011",
+        "customer_text": [
+            "Hola.",
+            "Quiero darles feedback sobre mi reciente experiencia.",
+            "Estoy muy satisfecho con el servicio recibido.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "12",
+        "customer_id": "cust_012",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Me gustaría agendar una cita para el servicio técnico.",
+            "¿Cuándo tienen disponibilidad?",
+            "Gracias, esa fecha me sirve.",
+            "Hasta luego."
+        ]
+    },
+    {
+        "call_id": "13",
+        "customer_id": "cust_013",
+        "customer_text": [
+            "Buenas tardes.",
+            "Tengo una pregunta sobre la garantía de mi producto.",
+            "¿Cuánto tiempo está cubierto por la garantía?",
+            "Gracias por la información."
+        ]
+    },
+    {
+        "call_id": "14",
+        "customer_id": "cust_014",
+        "customer_text": [
+            "Hola.",
+            "Estoy interesado en las promociones actuales.",
+            "¿Podrías darme más detalles?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "15",
+        "customer_id": "cust_015",
+        "customer_text": [
+            "Buenas noches.",
+            "Necesito ayuda con mi dispositivo, no está funcionando correctamente.",
+            "¿Podrías ayudarme a solucionarlo?",
+            "Gracias por la asistencia."
+        ]
+    },
+    {
+        "call_id": "16",
+        "customer_id": "cust_016",
+        "customer_text": [
+            "Hola.",
+            "Quiero saber los términos para renovar mi contrato.",
+            "¿Podrías explicarme los detalles?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "17",
+        "customer_id": "cust_017",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Quiero solicitar un reembolso por un servicio que no estoy utilizando.",
+            "¿Cómo puedo proceder?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "18",
+        "customer_id": "cust_018",
+        "customer_text": [
+            "Buenas tardes.",
+            "¿Está disponible el servicio en mi área?",
+            "Gracias por la información."
+        ]
+    },
+    {
+        "call_id": "19",
+        "customer_id": "cust_019",
+        "customer_text": [
+            "Hola.",
+            "Estoy llamando para reportar una interrupción en mi servicio.",
+            "¿Cuándo se espera que se solucione?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "20",
+        "customer_id": "cust_020",
+        "customer_text": [
+            "Buenas tardes.",
+            "Quiero saber más sobre las características de su producto.",
+            "¿Podrías darme más detalles?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "21",
+        "customer_id": "cust_021",
+        "customer_text": [
+            "Hola.",
+            "Necesito saber sobre los límites de uso de mi plan.",
+            "¿Podrías explicarme?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "22",
+        "customer_id": "cust_022",
+        "customer_text": [
+            "Buenos días.",
+            "Necesito ayuda para instalar un nuevo producto.",
+            "¿Podrías guiarme en el proceso?",
+            "Gracias por la ayuda."
+        ]
+    },
+    {
+        "call_id": "23",
+        "customer_id": "cust_023",
+        "customer_text": [
+            "Hola.",
+            "Quiero saber si soy elegible para una actualización de mi plan.",
+            "Gracias por la información."
+        ]
+    },
+    {
+        "call_id": "24",
+        "customer_id": "cust_024",
+        "customer_text": [
+            "Buenas noches.",
+            "Quiero presentar una queja sobre el mal servicio recibido.",
+            "¿Cómo puedo proceder?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "25",
+        "customer_id": "cust_025",
+        "customer_text": [
+            "Hola.",
+            "Tengo un problema de seguridad en mi cuenta.",
+            "¿Podrías ayudarme a resolverlo?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "26",
+        "customer_id": "cust_026",
+        "customer_text": [
+            "Buenos días.",
+            "Estoy disputando un cargo en mi factura.",
+            "¿Podrías revisar esto?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "27",
+        "customer_id": "cust_027",
+        "customer_text": [
+            "Buenas tardes.",
+            "Quiero transferir mi servicio a una nueva dirección.",
+            "¿Cuál es el proceso?",
+            "Gracias por la ayuda."
+        ]
+    },
+    {
+        "call_id": "28",
+        "customer_id": "cust_028",
+        "customer_text": [
+            "Hola.",
+            "Estoy interesado en saber más sobre los beneficios del programa de lealtad.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "29",
+        "customer_id": "cust_029",
+        "customer_text": [
+            "Buenas noches.",
+            "Quiero suspender mi servicio temporalmente.",
+            "¿Cómo puedo hacerlo?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "30",
+        "customer_id": "cust_030",
+        "customer_text": [
+            "Hola.",
+            "Quiero modificar un pedido existente.",
+            "¿Cómo puedo proceder?",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "31",
+        "customer_id": "cust_031",
+        "customer_text": [
+            "Hola, buenos días.",
+            "Estoy muy descontento con el servicio que he recibido.",
+            "He tenido problemas constantes con mi conexión a internet.",
+            "Quiero cancelar mi servicio inmediatamente.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "32",
+        "customer_id": "cust_032",
+        "customer_text": [
+            "Buenas tardes.",
+            "Mi pedido llegó dañado y no funciona.",
+            "Estoy muy molesto porque no puedo usarlo.",
+            "Quiero un reembolso completo.",
+            "Hasta luego."
+        ]
+    },
+    {
+        "call_id": "33",
+        "customer_id": "cust_033",
+        "customer_text": [
+            "Hola.",
+            "Llevo semanas esperando una respuesta a mi problema.",
+            "Estoy harto de esperar.",
+            "Necesito una solución ya.",
+            "Adiós."
+        ]
+    },
+    {
+        "call_id": "34",
+        "customer_id": "cust_034",
+        "customer_text": [
+            "Buenas noches.",
+            "El producto que me vendieron no funciona como se prometió.",
+            "Estoy muy decepcionado.",
+            "Quiero hablar con un supervisor.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "35",
+        "customer_id": "cust_035",
+        "customer_text": [
+            "Buenos días.",
+            "El servicio al cliente ha sido pésimo.",
+            "Nadie ha podido resolver mi problema.",
+            "Voy a cambiar de proveedor.",
+            "Adiós."
+        ]
+    },
+    {
+        "call_id": "36",
+        "customer_id": "cust_036",
+        "customer_text": [
+            "Hola.",
+            "Estoy muy insatisfecho con la calidad del producto.",
+            "No puedo creer que esto sea lo que ofrecen.",
+            "Quiero un reembolso inmediatamente.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "37",
+        "customer_id": "cust_037",
+        "customer_text": [
+            "Buenas tardes.",
+            "Estoy muy frustrado con la atención que he recibido.",
+            "No me han dado ninguna solución útil.",
+            "Voy a presentar una queja formal.",
+            "Adiós."
+        ]
+    },
+    {
+        "call_id": "38",
+        "customer_id": "cust_038",
+        "customer_text": [
+            "Hola, buenos días.",
+            "He estado teniendo problemas constantes con mi cuenta.",
+            "Estoy muy decepcionado con su servicio.",
+            "Necesito una solución inmediata.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "39",
+        "customer_id": "cust_039",
+        "customer_text": [
+            "Buenas noches.",
+            "Estoy extremadamente insatisfecho con el soporte técnico.",
+            "Nadie parece saber cómo resolver mi problema.",
+            "Quiero hablar con un gerente.",
+            "Gracias."
+        ]
+    },
+    {
+        "call_id": "40",
+        "customer_id": "cust_040",
+        "customer_text": [
+            "Hola.",
+            "El servicio que he recibido ha sido terrible.",
+            "Estoy muy enojado por la falta de respuestas.",
+            "Voy a cancelar todos mis servicios con ustedes.",
+            "Adiós."
+        ]
+    }
+]
